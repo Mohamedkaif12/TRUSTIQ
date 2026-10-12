@@ -1,0 +1,35 @@
+{
+  "features": [
+    "urgency_score",
+    "financial_request",
+    "fear_score",
+    "anger_score",
+    "emotional_pressure",
+    "authority_claim",
+    "impersonation_signal",
+    "suspicious_url",
+    "account_threat",
+    "social_pressure",
+    "forced_action",
+    "reward_claim",
+    "unusual_request",
+    "request_for_credentials",
+    "request_for_otp",
+    "request_for_payment",
+    "external_link",
+    "excessive_punctuation",
+    "excessive_caps",
+    "time_pressure",
+    "source_available",
+    "source_consistency",
+    "claim_specificity"
+  ],
+  "classes": [
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "n_features": 23,
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 150
+}
